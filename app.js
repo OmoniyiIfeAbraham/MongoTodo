@@ -34,7 +34,7 @@ app.use(
       secret: 'keyboard cat',
       resave: false,
       saveUninitialized: false,
-      store: MongoStore.create({ mongoUrl: 'mongodb://127.0.0.1:27017/todo' }),
+      store: MongoStore.create({ mongoUrl: 'mongodb+srv://tare:1234data@nodetuts.imief.mongodb.net/myFirstDatabase?retryWrites=true&w=majority' }),
     })
   )
 
