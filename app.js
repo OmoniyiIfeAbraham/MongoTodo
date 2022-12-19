@@ -9,7 +9,7 @@ const MongoStore = require('connect-mongo')
 
 
 var app=express();
-const PORT = process.env.PORT||3000;
+const PORT = 3000;
 dotenv.config({ path: './config/config.env' })
 // Connect to mongodb
 // mongoose.connect("mongodb://localhost/todo_list",{
